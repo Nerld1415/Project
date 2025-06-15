@@ -1,10 +1,24 @@
+# 🤖 Board-A Arduino 프로젝트
+
+Arduino + MQTT + OLED + Servo 제어를 포함한 스마트 로봇 프로젝트입니다.
 
 ---
 
-## Board-A code
+## 🔧 주요 기능
+- WiFi 연결 상태 OLED에 출력
+- MQTT 명령으로 움직임 제어 (전진, 후진, 정지, 걷기 등)
+- Servo 모터와 OLED 연동
+- 상태 주기적 MQTT 전송
 
-`README.md`에 아래처럼 그대로 붙여넣으세요:
+---
 
+## 🧠 사용된 기술
+| 항목        | 내용                      |
+|-------------|---------------------------|
+| MCU         | ESP32                     |
+| 통신 방식   | MQTT (broker.emqx.io)     |
+| 센서/모터   | OLED, 서보모터 (4개)      |
+| IDE         | Arduino IDE               |
 <details>
 <summary>🔧 전체 Arduino 코드 보기 (클릭)</summary>
 
