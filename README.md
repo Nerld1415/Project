@@ -17,7 +17,7 @@ Arduino + MQTT + OLED + Servo 제어를 포함한 스마트 로봇 프로젝트�
 |-------------|---------------------------|
 | MCU         | ESP32                     |
 | 통신 방식   | MQTT (broker.emqx.io)     |
-| 센서/모터   | OLED, 서보모터 (4개)      |
+| 센서/모터   | OLED, 180도, 360도 서보모터 (2개씩)      |
 | IDE         | Arduino IDE               |
 <details>
 <summary>🔧 전체 Arduino 코드 보기 (클릭)</summary>
